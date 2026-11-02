@@ -1,0 +1,19 @@
+# Environment variables (API keys, DB secrets)
+.env
+.env.local
+
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+

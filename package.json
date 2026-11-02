@@ -1,0 +1,26 @@
+{
+  "name": "product-search-ai",
+  "version": "1.0.0",
+  "description": "Product Search AI using Express, MongoDB, MCP Server, and Grok API",
+  "main": "mcpServer.js",
+  "scripts": {
+    "start": "node mcpServer.js",
+    "seed": "node seed.js"
+  },
+  "keywords": [
+    "mcp",
+    "grok",
+    "mongodb",
+    "product-search",
+    "ai"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "axios": "^1.21.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "zod": "^3.24.2"
+  }
+}
